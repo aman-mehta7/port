@@ -1,9 +1,11 @@
 {
-  "name": "portfolio",
+  "homepage": "https://aman-mehta7.github.io/port",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -16,6 +18,8 @@
     "@react-three/fiber": "^9.1.2",
     "@react-three/postprocessing": "^3.0.4",
     "@tailwindcss/vite": "^4.1.4",
+    "gh-pages": "^6.3.0",
+    "ghpages": "^0.0.10",
     "gsap": "^3.12.7",
     "react": "^19.0.0",
     "react-countup": "^6.5.3",
