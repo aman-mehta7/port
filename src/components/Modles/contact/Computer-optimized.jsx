@@ -9,7 +9,7 @@ import { useGLTF } from '@react-three/drei'
 import { compute } from 'three/tsl'
 
 export function Computer(props) {
-  const { nodes, materials } = useGLTF('/models/computer-optimized-transformed.glb')
+  const { nodes, materials } = useGLTF('/port/models/computer-optimized-transformed.glb')
   return (
     <group {...props} dispose={null}>
       <group position={[-4.005, 67.549, 58.539]}>
@@ -21,4 +21,4 @@ export function Computer(props) {
 }
 export default Computer;
 
-useGLTF.preload('/models/computer-optimized-transformed.glb')
+useGLTF.preload('/port/models/computer-optimized-transformed.glb')

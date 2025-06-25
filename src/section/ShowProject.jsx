@@ -62,7 +62,7 @@ const ShowProject = () => {
     >
       <div className="flex flex-col xl:flex-row gap-7">
         <div ref={project1} className="">
-          <img className="rounded-2xl" src="./images/project1.png" alt="" />
+          <img className="rounded-2xl" src="./port/images/project1.png" alt="" />
           <h1 className="text-2xl font-bold mt-8">
             On-Demand Rides Made Simple with a Powerful, User-Friendly App
             called Ryde
@@ -74,11 +74,11 @@ const ShowProject = () => {
         </div>
         <div className="flex flex-col md:flex-row xl:flex-col  gap-3 text-xl font-bold xl:-mt-5">
           <div ref={project2}>
-            <img className="rounded-md" src="./images/project2.png" alt="" />
+            <img className="rounded-md" src="./port/images/project2.png" alt="" />
             <h1 className="ml-[5%]">Library Management Platform</h1>
           </div>
           <div ref={project3}>
-            <img className="rounded-md" src="./images/project3.png" alt="" />
+            <img className="rounded-md" src="./port/images/project3.png" alt="" />
             <h1 className="ml-[5%]">YC Directory - A Startup Showcase App</h1>
           </div>
         </div>

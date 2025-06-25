@@ -11,7 +11,7 @@ import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function Gun(props) {
-  const { nodes, materials } = useGLTF('/models/gun.glb')
+  const { nodes, materials } = useGLTF('/port/models/gun.glb')
   return (
     <group {...props} dispose={null}>
       <group rotation={[-Math.PI / 2, 0, 0]}>
@@ -23,4 +23,4 @@ export function Gun(props) {
   )
 }
 export default Gun;
-useGLTF.preload('/models/gun.glb')
+useGLTF.preload('/port/models/gun.glb')
